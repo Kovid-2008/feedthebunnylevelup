@@ -82,7 +82,7 @@ if(isMobile){
   
   frameRate(80);
 
-  //bk_song.play();
+  bk_song.play();
   bk_song.setVolume(0.5);
 
   engine = Engine.create();
@@ -124,7 +124,7 @@ if(isMobile){
   bunny.addAnimation('crying',sad);
   bunny.changeAnimation('blinking');
 
-  bubble = createSprite(299,canH-210,100,100);
+  bubble = createSprite(299,canH-180,100,100);
   bubble.scale = 0.1;
 
   bubble.addImage("bubble",bubbleImg);
